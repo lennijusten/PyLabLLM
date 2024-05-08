@@ -24,6 +24,14 @@
             "C3": [15, 16],
             "D3": [17, 18],
             "E3": [19, 20]
+        },
+        "thermocycling": {
+            "dae_profile": [
+                {"temperature": 98, "hold_time_seconds": 10},
+                {"temperature": 60, "hold_time_seconds": 10},
+                {"temperature": 72, "hold_time_seconds": 32.44}
+            ],
+            "max_well_volume": 50
         }
     },
     "2": {
@@ -41,6 +49,14 @@
             "D4": [9, 10, 11, 12],
             "E4": [13, 14, 15, 16],
             "F4": [17, 18, 19, 20]
+        },
+        "thermocycling": {
+            "dae_profile": [
+                {"temperature": 98, "hold_time_seconds": 10},
+                {"temperature": 60, "hold_time_seconds": 10},
+                {"temperature": 72, "hold_time_seconds": 54.84}
+            ],
+            "max_well_volume": 50
         }
     },
     "3": {
@@ -55,6 +71,14 @@
             "B5": [1, 2, 3, 4, 5, 6, 7, 8],
             "C5": [9, 10, 11, 12, 13, 14, 15, 16],
             "F4": [17, 18, 19, 20]
+        },
+        "thermocycling": {
+            "dae_profile": [
+                {"temperature": 98, "hold_time_seconds": 10},
+                {"temperature": 60, "hold_time_seconds": 10},
+                {"temperature": 72, "hold_time_seconds": 89.6}
+            ],
+            "max_well_volume": 50
         }
     },
     "4": {
@@ -66,6 +90,14 @@
         "frag_mapping": {
             "B5": [1, 2, 3, 4, 5, 6, 7, 8],
             "B6": [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+        },
+        "thermocycling": {
+            "dae_profile": [
+                {"temperature": 98, "hold_time_seconds": 10},
+                {"temperature": 60, "hold_time_seconds": 10},
+                {"temperature": 72, "hold_time_seconds": 144.44}
+            ],
+            "max_well_volume": 50
         }
     },
     "5": {
@@ -75,6 +107,14 @@
         },
         "frag_mapping": {
             "B7": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+        },
+        "thermocycling": {
+            "dae_profile": [
+                {"temperature": 98, "hold_time_seconds": 10},
+                {"temperature": 60, "hold_time_seconds": 10},
+                {"temperature": 72, "hold_time_seconds": 233.8}
+            ],
+            "max_well_volume": 50
         }
     }
 }
