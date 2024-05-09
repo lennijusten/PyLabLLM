@@ -31,7 +31,7 @@
                 {"temperature": 60, "hold_time_seconds": 10},
                 {"temperature": 72, "hold_time_seconds": 32.44}
             ],
-            "max_well_volume": 50
+            "max_well_volume": 100
         }
     },
     "2": {
